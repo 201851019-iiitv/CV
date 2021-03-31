@@ -1,29 +1,41 @@
 
   body {
-      background-color:burlywood;
+      color:#DBE8D4;
+      background-color: #222733;
+      text-decoration: rgb(220, 255, 232);
+      font-family: 'Syne Mono', monospace;
     }
 
-    hr {
-      border-style: none;
+     hr {
+       border-color:black;
+       border-width: 2%;
+       border-style: solid;
+      /* border-style: none;
       border-top-style: dotted;
       border-color: gray;
       border-width: 10px;
-      width: 5%;
-    }
+      width: 5%; */
+    } 
 
     img {
-      width: 75%;
+      width: 60%;
 border-style:hidden;
-border-radius: 100%;
+border-radius: 120%;
+margin-left: 2%;
+margin-top: 3%;
     }
 h1{
-  color:#8b1313;
+  /* color:#8b1313; */
+  font-family: 'Roboto Slab', serif;
+  font-family: 'Syne Mono', monospace;
   font-size: 300%;
   font-style: italic;
   text-shadow: 3px 3px 10px;
 }
 h2{
-color:#8b1313;
+/* color:#8b1313; */
+font-family: 'Roboto Slab', serif;
+font-family: 'Syne Mono', monospace;
 font-style: oblique;
 font-size: 32px;
 font-weight: bold;
@@ -31,7 +43,7 @@ text-shadow: 3px 3px 10px;
 }
 input
 {
-background-color:burlywood ;
+/* background-color:#DBE8D4 ; */
 border:1px solid ;
 box-shadow: 0 0 10px;
 font-size:30px;
@@ -39,7 +51,7 @@ font-size:30px;
 }
 textarea
 {
-  background-color:burlywood ;
+  /* background-color#DBE8D4 ; */
   border:1px solid ;
   box-shadow: 0 0 10px;
 
@@ -84,3 +96,35 @@ label{
   font-size:30px;
    text-shadow: 3px 3px 7px;
 }
+
+
+.nav-item{
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.dropdown-item{
+  color:#DBE8D4;
+  border-style: solid;
+  font-family: 'Oswald', sans-serif;
+ 
+}
+
+ /* To Do chnage hover colour  */
+.dropdown-item:hover {
+  background-color: blue;
+}
+/* .card{
+  width:20%;
+  display: inline-block;
+  margin-right: 5%;
+  margin-left: 5%;
+  color:black;
+
+}
+.contme
+{
+margin-top: 5%;
+margin-bottom: 5%;
+
+} */
