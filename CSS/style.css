@@ -1,21 +1,27 @@
 
   body {
-      color:#DBE8D4;
-      background-color: #222733;
-      text-decoration: rgb(220, 255, 232);
+    margin-left: 3%;
+    /* margin-right: 2%; */
+      color:#131f0d;
+      /* #222733; */ 
+      background-color:rgb(225, 220, 255);
+      text-decoration: rgb(30, 37, 32);
       font-family: 'Syne Mono', monospace;
     }
+/* .containers{
+/* margin-left:28%;
+  margin-right: 17%; */
+ 
 
      hr {
-       border-color:black;
-       border-width: 2%;
-       border-style: solid;
-      /* border-style: none;
-      border-top-style: dotted;
-      border-color: gray;
-      border-width: 10px;
-      width: 5%; */
-    } 
+       margin-top: 2%;
+       margin-left: 40%;
+  
+       margin-right: 35%;
+       border-top-style: dotted; 
+       border-color: gray;
+      width: 6%;
+    }  
 
     img {
       width: 60%;
@@ -26,20 +32,22 @@ margin-top: 3%;
     }
 h1{
   /* color:#8b1313; */
-  font-family: 'Roboto Slab', serif;
-  font-family: 'Syne Mono', monospace;
+
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 300%;
-  font-style: italic;
+  font-style: normal;
   text-shadow: 3px 3px 10px;
 }
 h2{
 /* color:#8b1313; */
+/* font-family: 'Nunito Sans', sans-serif; */
 font-family: 'Roboto Slab', serif;
 font-family: 'Syne Mono', monospace;
-font-style: oblique;
+font-style:normal;
 font-size: 32px;
 font-weight: bold;
 text-shadow: 3px 3px 10px;
+text-decoration: underline;
 }
 input
 {
@@ -97,34 +105,55 @@ label{
    text-shadow: 3px 3px 7px;
 }
 
+#nav{
+
+background-color:rgb(144, 127, 241,0.2);
+
+}
 
 .nav-item{
-  margin-left: 3%;
+  /* margin-left: 3%; */
   margin-right: 3%;
 }
-
-.dropdown-item{
-  color:#DBE8D4;
-  border-style: solid;
-  font-family: 'Oswald', sans-serif;
- 
+.nav-item:hover{
+  /* background-color:rgb(144, 127, 241,0.2); */
+  border-color: royalblue;
+  
+}
+.dropdown-menu > li > a {
+  color: rgb(26, 23, 23);
 }
 
- /* To Do chnage hover colour  */
-.dropdown-item:hover {
-  background-color: blue;
+.dropdown-menu > li > a:hover {
+  background-color: rgba(32, 50, 151, 0.3); 
+  
 }
-/* .card{
-  width:20%;
-  display: inline-block;
-  margin-right: 5%;
-  margin-left: 5%;
-  color:black;
+.dropdown-divider{
+  border-color: black;
+  margin: 0%;
+  height: 100%;
+  width:100%;
+}
+
+.smallhome{
+margin-right:0;
+  width:5%;
 
 }
-.contme
-{
-margin-top: 5%;
-margin-bottom: 5%;
 
-} */
+.c1{
+ margin-top: .7%; 
+ margin-right: .5%;
+}
+
+.row{
+  --bs-gutter-x:.5rem;
+}
+
+.btn-info{
+
+  color:#dee2e6;
+  background-color:#030d10;
+  border-color:rgb(65,70,75,0.7);
+
+}
