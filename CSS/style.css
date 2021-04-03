@@ -135,6 +135,13 @@ background-color:rgb(144, 127, 241,0.2);
   width:100%;
 }
 
+.navbar-toggler
+{
+background-color: rgb(144, 127, 241,0.2);
+  margin-left: 0%;
+
+}
+
 .smallhome{
 margin-right:0;
   width:5%;
