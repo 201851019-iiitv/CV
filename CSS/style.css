@@ -2,9 +2,9 @@
   body {
     margin-left: 3%;
     /* margin-right: 2%; */
-      color:#131f0d;
+      color:#FFFFFF;
       /* #222733; */ 
-      background-color:rgb(225, 220, 255);
+      background-color: #07c284;
       text-decoration: rgb(30, 37, 32);
       font-family: 'Syne Mono', monospace;
     }
@@ -14,13 +14,13 @@
  
 
      hr {
-       margin-top: 2%;
-       margin-left: 40%;
-  
-       margin-right: 35%;
-       border-top-style: dotted; 
-       border-color: gray;
-      width: 6%;
+       margin-top: 20PX;
+      margin-bottom: 20px;
+      border:0;
+     margin-right:20px ;
+       border-top:1px solid #eee; 
+      height: 3px;
+      opacity: .50;
     }  
 
     img {
@@ -41,8 +41,9 @@ h1{
 h2{
 /* color:#8b1313; */
 /* font-family: 'Nunito Sans', sans-serif; */
-font-family: 'Roboto Slab', serif;
-font-family: 'Syne Mono', monospace;
+/* font-family: 'Roboto Slab', serif;
+font-family: 'Syne Mono', monospace; */
+font-family: 'Lato', sans-serif;
 font-style:normal;
 font-size: 32px;
 font-weight: bold;
