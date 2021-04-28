@@ -4,7 +4,9 @@
     /* margin-right: 2%; */
       color:#141213;
       /* #222733; #38CC77;  */ 
-      background-color: #35BDD0;
+      /* background-color: #35BDD0; */
+
+     background: linear-gradient(to right, #239cec, #86e9fb, #C6FFDD);
       font-family: 'Syne Mono', monospace;
     }
 /* .containers{
@@ -113,17 +115,26 @@ background-color:rgb(144, 127, 241,0.2);
 
 .nav-item{
   /* margin-left: 3%; */
-  margin-right: 11%;
+  color:#239cec;
+  font-weight: bold;
+  margin-right: 11.5%;
 }
 .nav-item:hover{
   /* background-color:rgb(144, 127, 241,0.2); */
   border-color: rgb(12, 12, 109);
   
 }
-.dropdown-menu > li > a {
-  color: rgb(14, 13, 13);
+.dropdown-menu  {
+  background: #ebf7f2;
+  
 }
 
+
+.dropdown-item{
+  
+  font-weight: bold;
+
+}
 .dropdown-menu > li > a:hover {
   background-color: rgba(21, 22, 22, 0.4); 
   
