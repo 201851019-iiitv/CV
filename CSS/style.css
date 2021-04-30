@@ -4,15 +4,18 @@
     /* margin-right: 2%; */
       color:#141213;
       /* #222733; #38CC77;  */ 
-      /* background-color: #35BDD0; */
+      background-color: #C6FFDD;
 
-     background: linear-gradient(to right, #239cec, #86e9fb, #C6FFDD);
+     /* background: linear-gradient(to right, #239cec, #86e9fb, #C6FFDD); */
       font-family: 'Syne Mono', monospace;
     }
+     
 /* .containers{
 /* margin-left:28%;
   margin-right: 17%; */
  
+
+
 
      hr {
        margin-top: 20PX;
@@ -106,7 +109,6 @@ label{
   font-size:30px;
    text-shadow: 3px 3px 7px;
 }
-
 #nav{
 
 background-color:rgb(144, 127, 241,0.2);
