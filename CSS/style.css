@@ -23,16 +23,15 @@
     }  
 
     img {
-      width: 60%;
+      width: 58%;
 border-style:hidden;
-border-radius: 120%;
+border-radius: 70%;
 margin-left: 2%;
 margin-top: 3%;
     }
 h1{
   /* color:#8b1313; */
-
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 300%;
   font-style: normal;
   /* text-shadow: 3px 3px 10px; */
@@ -67,10 +66,12 @@ textarea
 }
 p{
  font-size:30px;
+ font-family: 'Ubuntu Mono', monospace;
   /* text-shadow: 3px 3px 7px; */
 }
 li{
   font-size:30px;
+  font-family: 'Ubuntu Mono', monospace;
    /* text-shadow: 3px 3px 7px; */
 
 }
