@@ -5,7 +5,7 @@
       color:#141213;
 
      background: linear-gradient(to right, #239cec, #86e9fb, #C6FFDD);
-      font-family: 'Syne Mono', monospace;
+     font-family: 'Source Sans Pro', sans-serif;
     }
 /* .containers{
 /* margin-left:28%;
@@ -35,7 +35,7 @@ h1{
   font-family: 'Nunito Sans', sans-serif;
   font-size: 300%;
   font-style: normal;
-  text-shadow: 3px 3px 10px;
+  /* text-shadow: 3px 3px 10px; */
 }
 h2{
 /* color:#8b1313; */
@@ -46,7 +46,7 @@ font-family: 'Lato', sans-serif;
 font-style:normal;
 font-size: 32px;
 font-weight: bold;
-text-shadow: 3px 3px 10px;
+/* text-shadow: 3px 3px 10px; */
 text-decoration: underline;
 }
 input
@@ -55,40 +55,40 @@ input
 border:1px solid ;
 box-shadow: 0 0 10px;
 font-size:30px;
- text-shadow: 3px 3px 7px;
+ /* text-shadow: 3px 3px 7px; */
 }
 textarea
 {
   /* background-color#DBE8D4 ; */
   border:1px solid ;
-  box-shadow: 0 0 10px;
+  /* box-shadow: 0 0 10px; */
 
 
 }
 p{
  font-size:30px;
-  text-shadow: 3px 3px 7px;
+  /* text-shadow: 3px 3px 7px; */
 }
 li{
   font-size:30px;
-   text-shadow: 3px 3px 7px;
+   /* text-shadow: 3px 3px 7px; */
 
 }
 td
 {
   font-size:30px;
-   text-shadow: 3px 3px 7px;
+   /* text-shadow: 3px 3px 7px; */
 
 }
 
 th{
   font-size:30px;
-   text-shadow: 3px 3px 7px;
+   /* text-shadow: 3px 3px 7px; */
 
 }
 a{
   font-size:30px;
-   text-shadow: 3px 3px 7px;
+   /* text-shadow: 3px 3px 7px; */
 }
 /* class tag selector  ---*/
 
@@ -102,7 +102,7 @@ margin-left: 5%;
 label{
 
   font-size:30px;
-   text-shadow: 3px 3px 7px;
+   /* text-shadow: 3px 3px 7px; */
 }
 
 #nav{
@@ -134,7 +134,7 @@ background-color:rgb(144, 127, 241,0.2);
 
 }
 .dropdown-menu > li > a:hover {
-  background-color: rgba(21, 22, 22, 0.4); 
+  background-color: rgba(50, 26, 138, 0.1); 
   
 }
 .dropdown-divider{
