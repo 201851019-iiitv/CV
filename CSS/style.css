@@ -133,7 +133,7 @@ label{
       margin-bottom:1%;
   } */
 
-  a[title]:hover::after {
+  .dropdown-menu > a[title]:hover::after {
     content: attr(title);
     position: absolute;
     top: -100%;
