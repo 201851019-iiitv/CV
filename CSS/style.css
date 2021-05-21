@@ -109,17 +109,15 @@ label{
 
 .navbar-brand{
   font-family: "Ubuntu";
-  font-size:3rem;
-  font-weight:bold ;
+  font-size:2.7rem;
+  /* font-weight:bold ; */
   
   }
 
-
   .navbar-nav > li{
-   margin-left:5%;
-    /* margin-right:10%; */
-    font-size: 20%;
-
+    margin-left:5%;
+     /* margin-right:10%; */
+     font-size: 5%;
   }
  
   
@@ -138,7 +136,7 @@ label{
     position: absolute;
     top: -100%;
     left: 0;
-    font-size:2rem;
+    font-size:1.5rem;
     font-family:"Montserrat-Bold";
   }
 
