@@ -192,11 +192,15 @@ margin-right:0;
 a{
   color:#141213;
 }
+.total-body{
+   display:flex;
+   flex-direction: column;
+}
 
+.navbar-container {
+   flex-grow: 0.2;
+}
 
-.flex-box1,.container-fluid,.collapse{
-  display:flex;
-  flex-direction: row;
-  justify-content:right;
-  align-items:right;
+.except-nav{
+  flex-grow: 1;
 }
